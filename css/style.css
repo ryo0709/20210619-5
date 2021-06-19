@@ -8,10 +8,10 @@
   width: 100%;
 }
 header {
-  height: 140px;
+  height: 70px;
   display: flex;
-  padding: 33px 20px;
-  color: #00008B;
+  padding: 20px 10px;
+  color: #00008b;
 }
 header h2 {
   font-size: 24px;
@@ -33,21 +33,24 @@ header a {
   color: inherit;
 }
 
+.main {
+  position: relative;
+  margin-top: 18%;
+}
+
 .main__content-ttl {
-font-size: 60px;
-font-weight: 400;
-top: 70%;
+  font-size: 60px;
+  font-weight: 400;
 }
 .main__content {
-display: flex;
-justify-content: space-around;
-background-color: #00008B;
-width: 900px;
-height: 150px;
-padding: 80px;
+  background-color: #00008b;
+  width: 60%;
+  padding: 80px;
 }
 .main__img {
-  width: 100%;
-  margin-top: -300px;
-  margin-right: -100%;
+  width: 50%;
+  height: 150%;
+  position: absolute;
+  top: -80%;
+  right: 0;
 }
